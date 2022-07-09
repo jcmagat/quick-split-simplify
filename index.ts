@@ -10,7 +10,7 @@ export const handler: Handler = async (
   // TODO implement
   const response = {
     statusCode: 200,
-    body: JSON.stringify("Hello, World! I'm Juan!"),
+    body: JSON.stringify("This was deployed using GitHub Actions!"),
   };
   return response;
 };
